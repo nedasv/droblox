@@ -1,3 +1,4 @@
-from droblox import id_from_username
+from droblox import Dget
 
-print(id_from_username('drimpetuous'))
+print(Dget.previous_usernames(username='8828282890585902289589503258328903520835803502835025839253253523253802359092230598'))
+print(Dget.previous_usernames(id=999999999999999999999999999999))

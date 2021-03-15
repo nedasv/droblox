@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="droblox",
-    version="0.0.1",
+    version="0.0.2",
     description="Simple ROBLOX api wrapper easy to use and rich in features.",
     py_modules=["dget"],
     package_dir={"": "src"},
@@ -30,7 +30,7 @@ setup(
         ],
     },
 
-    url="",
+    url="https://github.com/nedasv/droblox.git",
     author="Nedas Vaupsas",
     author_email="nedasvaupsas@gmail.com"
 )

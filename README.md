@@ -10,16 +10,19 @@ Run the following to install:
 pip install droblox
 ```
 
-## Usuage
+## Usage
 
 ```python
-from droblox import dget
+from droblox import Dget
 
 # Generate a User ID from a string username
-dget.username_to_id("ROBLOX")
+Dget.username_to_id("ROBLOX")
 
 # Generate a Users last online date
-dget.last_online_date("mrflimflam")
+Dget.last_online_date("mrflimflam") 
+
+# Returns None if no previous usernames or a List of previous usernames
+Dget.previous_usernames(username="ROBLOX") or Dget.previous_usernames(id=1)
 ```
 
 # Developing droblox
@@ -27,4 +30,3 @@ dget.last_online_date("mrflimflam")
 ```bash
 $ pip install -e .[dev]
 ```
-
