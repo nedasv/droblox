@@ -1,4 +1,5 @@
-from droblox import Dget
+from droblox import Dget, Multi
 
-print(Dget.previous_usernames(username='8828282890585902289589503258328903520835803502835025839253253523253802359092230598'))
-print(Dget.previous_usernames(id=999999999999999999999999999999))
+print(Dget.last_online_date(id=1))
+print(Dget.id_from_username("roblox"))
+print(Multi.apis(cool=1, fool=1))

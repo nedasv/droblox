@@ -16,17 +16,26 @@ pip install droblox
 from droblox import Dget
 
 # Generate a User ID from a string username
-Dget.username_to_id("ROBLOX")
+Dget.username_to_id("roblox")
 
 # Generate a Users last online date
 Dget.last_online_date("mrflimflam") 
 
 # Returns None if no previous usernames or a List of previous usernames
-Dget.previous_usernames(username="ROBLOX") or Dget.previous_usernames(id=1)
+Dget.previous_usernames(username="roblox" or id=1)
+
+#
+
 ```
 
-# Developing droblox
+## Changelog:
+
+> 
+
+## Developing droblox
 
 ```bash
 $ pip install -e .[dev]
 ```
+
+
